@@ -6,7 +6,7 @@ export default function Home(){
   return (
     <main>
       <Navbar />
-      <section className="p-4">
+      <section className="p-4 grid place-items-center gap-8">
         <h1 className="text-3xl">Welcome !</h1>
         <Shop />
       </section>

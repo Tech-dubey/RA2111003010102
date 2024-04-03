@@ -7,8 +7,9 @@ export interface APIObject{
 }
 
 export interface Product {
-    category: string, 
-    name: string, 
+    id?: string,
+    category?: string, 
+    productName: string, 
     price: number, 
     rating: number, 
     discount: number, 
